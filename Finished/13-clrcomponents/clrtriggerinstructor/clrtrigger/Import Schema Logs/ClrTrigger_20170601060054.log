@@ -1,0 +1,84 @@
+5/31/2017 11:00:54 PM	This log contains information about the import schema operation into project 'ClrTrigger' on computer 'LABS' by user 'dellp'.
+5/31/2017 11:00:55 PM	Import of database schema has started.
+5/31/2017 11:01:00 PM	Gathering database credentials
+5/31/2017 11:01:00 PM	Gathering database options
+5/31/2017 11:01:00 PM	Gathering users
+5/31/2017 11:01:00 PM	Gathering roles
+5/31/2017 11:01:00 PM	Gathering application roles
+5/31/2017 11:01:00 PM	Gathering role memberships
+5/31/2017 11:01:00 PM	Gathering filegroups
+5/31/2017 11:01:00 PM	Gathering full-text catalogs
+5/31/2017 11:01:00 PM	Gathering assemblies
+5/31/2017 11:01:00 PM	Gathering certificates
+5/31/2017 11:01:00 PM	Gathering asymmetric keys
+5/31/2017 11:01:00 PM	Gathering symmetric keys
+5/31/2017 11:01:00 PM	Gathering encrypted symmetric keys
+5/31/2017 11:01:00 PM	Gathering schemas
+5/31/2017 11:01:00 PM	Gathering XML schema collections
+5/31/2017 11:01:00 PM	Gathering user-defined data types
+5/31/2017 11:01:00 PM	Gathering user-defined types
+5/31/2017 11:01:00 PM	Gathering table types
+5/31/2017 11:01:00 PM	Gathering unique keys for table types
+5/31/2017 11:01:00 PM	Gathering primary keys for table types
+5/31/2017 11:01:00 PM	Gathering indexes for table types
+5/31/2017 11:01:00 PM	Gathering check constraints for table types
+5/31/2017 11:01:00 PM	Gathering default constraints for table types
+5/31/2017 11:01:00 PM	Gathering partition functions
+5/31/2017 11:01:00 PM	Gathering partition schemes
+5/31/2017 11:01:00 PM	Gathering functions
+5/31/2017 11:01:00 PM	Gathering encrypted functions
+5/31/2017 11:01:00 PM	Gathering aggregates
+5/31/2017 11:01:00 PM	Gathering procedures
+5/31/2017 11:01:00 PM	Gathering encrypted procedures
+5/31/2017 11:01:00 PM	Gathering tables
+5/31/2017 11:01:00 PM	Gathering primary keys
+5/31/2017 11:01:00 PM	Gathering unique constraints
+5/31/2017 11:01:00 PM	Gathering foreign keys
+5/31/2017 11:01:00 PM	Gathering default constraints
+5/31/2017 11:01:00 PM	Gathering check constraints
+5/31/2017 11:01:00 PM	Gathering views
+5/31/2017 11:01:00 PM	Gathering encrypted views
+5/31/2017 11:01:00 PM	Gathering indexes
+5/31/2017 11:01:00 PM	Gathering statistics
+5/31/2017 11:01:00 PM	Gathering full-text index stoplists
+5/31/2017 11:01:00 PM	Gathering search property lists
+5/31/2017 11:01:00 PM	Gathering search properties
+5/31/2017 11:01:00 PM	Gathering full-text indexes
+5/31/2017 11:01:00 PM	Gathering column store indexes
+5/31/2017 11:01:00 PM	Gathering spatial indexes
+5/31/2017 11:01:00 PM	Gathering XML indexes
+5/31/2017 11:01:00 PM	Gathering Selective XML indexes
+5/31/2017 11:01:00 PM	Gathering encrypted triggers
+5/31/2017 11:01:00 PM	Gathering triggers
+5/31/2017 11:01:00 PM	Gathering encrypted and clr ddl triggers
+5/31/2017 11:01:00 PM	Gathering ddl triggers
+5/31/2017 11:01:00 PM	Gathering synonyms
+5/31/2017 11:01:00 PM	Gathering defaults
+5/31/2017 11:01:00 PM	Gathering data constraint uddt bindings
+5/31/2017 11:01:00 PM	Gathering rules
+5/31/2017 11:01:00 PM	Gathering data constraint uddt bindings
+5/31/2017 11:01:00 PM	Gathering message types
+5/31/2017 11:01:00 PM	Gathering queues
+5/31/2017 11:01:00 PM	Gathering contracts
+5/31/2017 11:01:00 PM	Gathering services
+5/31/2017 11:01:00 PM	Gathering event notifications
+5/31/2017 11:01:00 PM	Gathering remote service bindings
+5/31/2017 11:01:00 PM	Gathering broker priorities
+5/31/2017 11:01:00 PM	Gathering signatures
+5/31/2017 11:01:00 PM	Gathering data compression options
+5/31/2017 11:01:00 PM	Gathering sequence types
+5/31/2017 11:01:00 PM	Gathering security policies
+5/31/2017 11:01:00 PM	Gather column encryption keys
+5/31/2017 11:01:00 PM	Gathering column master keys
+5/31/2017 11:01:00 PM	Gathering external data sources
+5/31/2017 11:01:00 PM	Gathering external file formats
+5/31/2017 11:01:00 PM	Gathering external tables
+5/31/2017 11:01:00 PM	Gathering extended properties
+5/31/2017 11:01:00 PM	Gathering credentials
+5/31/2017 11:01:00 PM	Gathering logins
+5/31/2017 11:01:00 PM	Gathering server audits
+5/31/2017 11:01:01 PM	Scanning project for duplicate elements
+5/31/2017 11:01:01 PM	Finished duplicate element processing
+5/31/2017 11:01:02 PM	Finished importing database.
+5/31/2017 11:01:02 PM	A summary of the import was saved to the following location: C:\Users\dellp\Dropbox\CurrentTraining\SqlServerDevelopment\Finished\Module 12\ClrTrigger\ClrTrigger\Import Schema Logs\ClrTrigger_20170601060054.log
+5/31/2017 11:01:02 PM	Click Finish to continue...

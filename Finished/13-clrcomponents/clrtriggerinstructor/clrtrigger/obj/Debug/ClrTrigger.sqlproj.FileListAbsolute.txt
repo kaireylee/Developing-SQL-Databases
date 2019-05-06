@@ -1,0 +1,16 @@
+C:\Users\dellp\Dropbox\CurrentTraining\SqlServerDevelopment\Finished\Module 12\ClrTrigger\ClrTrigger\bin\Debug\ClrTrigger.dacpac
+C:\Users\dellp\Dropbox\CurrentTraining\SqlServerDevelopment\Finished\Module 12\ClrTrigger\ClrTrigger\obj\Debug\ClrTrigger.dll
+C:\Users\dellp\Dropbox\CurrentTraining\SqlServerDevelopment\Finished\Module 12\ClrTrigger\ClrTrigger\obj\Debug\ClrTrigger.pdb
+C:\Users\dellp\Dropbox\CurrentTraining\SqlServerDevelopment\Finished\Module 12\ClrTrigger\ClrTrigger\bin\Debug\ClrTrigger.dll
+C:\Users\dellp\Dropbox\CurrentTraining\SqlServerDevelopment\Finished\Module 12\ClrTrigger\ClrTrigger\bin\Debug\ClrTrigger.pdb
+C:\Users\dellp\Dropbox\CurrentTraining\SqlServerDevelopment\Finished\Module 12\ClrTrigger\ClrTrigger\bin\Debug\ClrStoredProcedure.dll
+C:\Users\dellp\Dropbox\CurrentTraining\SqlServerDevelopment\Finished\Module 12\ClrTrigger\ClrTrigger\bin\Debug\SimpleFunctionVS.dll
+C:\Users\dellp\Dropbox\CurrentTraining\SqlServerDevelopment\Finished\Module 12\ClrTrigger\ClrTrigger\bin\Debug\SqlFunctionLab.dll
+C:\Instructor\13-ClrComponents\ClrTriggerInstructor\ClrTrigger\bin\Debug\ClrTrigger.dacpac
+C:\Instructor\13-ClrComponents\ClrTriggerInstructor\ClrTrigger\bin\Debug\ClrTrigger.dll
+C:\Instructor\13-ClrComponents\ClrTriggerInstructor\ClrTrigger\bin\Debug\ClrTrigger.pdb
+C:\Instructor\13-ClrComponents\ClrTriggerInstructor\ClrTrigger\bin\Debug\ClrStoredProcedure.dll
+C:\Instructor\13-ClrComponents\ClrTriggerInstructor\ClrTrigger\bin\Debug\SimpleFunctionVS.dll
+C:\Instructor\13-ClrComponents\ClrTriggerInstructor\ClrTrigger\bin\Debug\SqlFunctionLab.dll
+C:\Instructor\13-ClrComponents\ClrTriggerInstructor\ClrTrigger\obj\Debug\ClrTrigger.dll
+C:\Instructor\13-ClrComponents\ClrTriggerInstructor\ClrTrigger\obj\Debug\ClrTrigger.pdb

@@ -1,0 +1,6 @@
+C:\Instructor\13-ClrComponents\ClrTrigger\ClrTrigger\bin\Debug\ClrTrigger.dacpac
+C:\Instructor\13-ClrComponents\ClrTrigger\ClrTrigger\obj\Debug\ClrTrigger.dll
+C:\Instructor\13-ClrComponents\ClrTrigger\ClrTrigger\obj\Debug\ClrTrigger.pdb
+C:\Instructor\13-ClrComponents\ClrTrigger\ClrTrigger\bin\Debug\ClrTrigger.dll
+C:\Instructor\13-ClrComponents\ClrTrigger\ClrTrigger\bin\Debug\ClrTrigger.pdb
+C:\Instructor\13-ClrComponents\ClrTrigger\ClrTrigger\bin\Debug\ClrStoredProcedure.dll
