@@ -12,9 +12,11 @@ Create Table PrimarySurrogateKey
 
 Insert Into PrimarySurrogateKey(EmployeeNo, SSN, LastName, FirstName)
 	Values (100, '123456789', 'Bourne', 'Jason')
-Insert Into PrimarySurrogateKey(EmployeeNo, SSN, LastName, FirstName)
-	Values (100, '123456789', 'Bourne', 'Jason')
+Select SCOPE_IDENTITY() As CurrentId; 
 
-Select Top(1) * From PrimarySurrogateKey;
+Insert Into PrimarySurrogateKey(EmployeeNo, SSN, LastName, FirstName)
+	Values (100, '123456789', 'Statham', 'Jason')
+
+Select Top(2) * From PrimarySurrogateKey;
 
 Drop Table PrimarySurrogateKey;
