@@ -15,9 +15,13 @@ Declare @decimalNumber Decimal(5, 2) = 999.99; --Number of places, decimal preci
 --Bit
 Declare @exempt Bit = 'False';
 
+--Null
+Declare @nullNumber as int; 
+
 Select @smallInt as SmallInt, 
        @tinyInt as TinyInt, 
        @annualSales as AnnualSales,
        @globalInvestment as GlobalInvestment, 
        @decimalNumber as DecimalNumber,
-	   @exempt as Exempt;
+	   @exempt as Exempt,
+	   @nullNumber as NullNumber;
