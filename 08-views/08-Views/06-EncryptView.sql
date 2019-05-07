@@ -1,23 +1,25 @@
-Use Northwind;
-Go
+USE Northwind;
+GO
 
-Create View vwCustomerOrdersUSA
-As 
-	Select c.CustomerID, 
+CREATE VIEW v_CustomerOrdersUSA 
+WITH ENCRYPTION
+AS  
+	SELECT c.CustomerID, 
 		   c.CompanyName,
 		   c.Country, 
-		   Convert(VarChar(10),o.OrderDate,101) As OrderDate, 
+		   CONVERT(VARCHAR(10),o.OrderDate,101) AS OrderDate, 
 		   od.UnitPrice, 
 		   od.Quantity,
-		   od.UnitPrice + od.Quantity as TotalSale,
+		   od.UnitPrice + od.Quantity AS TotalSale,
 		   p.ProductName
-	From Customers As c 
-		Inner Join Orders As o On c.CustomerID = o.CustomerID
-		Inner Join [Order Details] As od On o.OrderID = od.OrderID
-		Inner Join Products As p On od.ProductID = p.ProductID
-	Where c.Country = 'USA';
-Go
+	FROM Customers AS c 
+		INNER JOIN Orders AS o ON c.CustomerID = o.CustomerID
+		INNER JOIN [Order Details] AS od ON o.OrderID = od.OrderID
+		INNER JOIN Products As p ON od.ProductID = p.ProductID
+	WHERE c.Country = 'USA';
+GO
 
-Select * From vwCustomerOrdersUSA;
+SELECT * FROM v_CustomerOrdersUSA;
 
 --Drop View vwCustomerOrdersUSA;
+DROP VIEW v_CustomerOrdersUSA;
