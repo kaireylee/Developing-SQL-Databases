@@ -1,6 +1,13 @@
 Use Northwind;
 Go
 
+/*
+	Three ways that SQL Server gets data
+	Merge join
+	Hash match  
+	Nested loop 
+*/
+
 SELECT Customers.CompanyName, Orders.OrderDate, Products.ProductName, [Order Details].UnitPrice, [Order Details].Quantity, Categories.CategoryName, Suppliers.CompanyName AS Expr1
 FROM   Orders INNER JOIN
         Customers ON Orders.CustomerID = Customers.CustomerID INNER JOIN

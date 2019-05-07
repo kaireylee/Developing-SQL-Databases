@@ -22,4 +22,4 @@ FROM   Orders INNER JOIN
         Categories ON Products.CategoryID = Categories.CategoryID INNER JOIN
         Suppliers ON Products.SupplierID = Suppliers.SupplierID
 Where Customers.Country = 'USA'
-Order By Customers.Region
+Order By Customers.Region --Order by includes sort into the execution plan plan is executed right to left 

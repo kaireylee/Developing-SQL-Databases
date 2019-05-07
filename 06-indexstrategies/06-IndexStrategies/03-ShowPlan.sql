@@ -6,7 +6,7 @@ GO
  providing a current plan; however, updating statistics causes queries to 
  recompile. We recommend not updating statistics too frequently.
 */
---UPDATE STATISTICS Customers CompanyName WITH FULLSCAN;
+--UPDATE STATISTICS Customers CompanyName WITH FULLSCAN; --Last resource to fix issues with query 
 --GO
 
 --SET SHOWPLAN_TEXT ON

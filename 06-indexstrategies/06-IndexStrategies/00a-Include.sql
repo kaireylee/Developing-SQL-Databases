@@ -1,15 +1,11 @@
-Use Northwind;
-Go
+USE Northwind
+GO
 
-/*
-With Include:
-=====================================================================
-When an index is used, the index key is used to navigate through the index 
-pages to the correct index data page.
+SELECT * FROM Products;
 
-If the index has INCLUDE columns, that data is IMMEDIATELY AVAILABLE should the query need it.
+--Make columns that are used in the where or group by clauses into key columns to keep indexes small / efficient
+CREATE NONCLUSTERED INDEX NCIX_ProductCategory  
+	ON Products(ProductID, CategoryID)
+	INCLUDE (ProductName); --Covering Index improves performance with a cost of overhead when data is entered or modified
 
-Included columns can be VarChar(MAX), VarBinary(MAX) or XML data types, 
-that you CANNOT ADD as INDEX keys. Computed columns can also be used as included columns. 
-*/
-
+SELECT * FROM Products WHERE ProductName = 'Chai';
