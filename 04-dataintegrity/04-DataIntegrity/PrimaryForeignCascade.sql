@@ -23,8 +23,8 @@ Constraint Pk_OrderDetails Primary Key
 Alter Table OrderDetails Add Constraint
 	Fk_Orderdetails Foreign Key(OrderID)
 	References Orders(OrderID)
---On Delete Cascade
---On Update Cascade;
+	On Delete Cascade
+	On Update Cascade;
 Go
 
 INSERT INTO Orders (OrderID, OrderDate)
@@ -56,12 +56,12 @@ SELECT *
 	FROM OrderDetails
 	
 --Cascade Delete
---DELETE
+--DELETE --Regular delete is protected by referential integrity
 --	FROM Orders
 --	WHERE OrderID = 1
 
---Update Orders
---	Set OrderID = 10 Where OrderID = 1;
+Update Orders
+	Set OrderID = 10 Where OrderID = 1;
 
 SELECT *
 	FROM Orders;
