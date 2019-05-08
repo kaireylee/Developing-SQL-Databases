@@ -3,7 +3,7 @@
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="(local):LABGURU-OFFICE\dellp">
+        <ConnectionNode Name="(local):ADVENTUREWORKS\Administrator">
           <Created>2019-03-04T21:14:38.550271-08:00</Created>
           <Type>SQL</Type>
           <Server>(local)</Server>
@@ -15,7 +15,7 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
         </ConnectionNode>
-        <ConnectionNode Name="(local)\sqlexpress:LABGURU-OFFICE\dellp">
+        <ConnectionNode Name="(local)\sqlexpress:ADVENTUREWORKS\Administrator">
           <Created>2019-02-10T00:26:45.7077828-08:00</Created>
           <Type>SQL</Type>
           <Server>(local)\sqlexpress</Server>
@@ -27,7 +27,7 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
         </ConnectionNode>
-        <ConnectionNode Name="MIA-SQL\SQL2:LABGURU-OFFICE\dellp">
+        <ConnectionNode Name="MIA-SQL\SQL2:ADVENTUREWORKS\Administrator">
           <Created>2017-12-05T15:23:48.19696-08:00</Created>
           <Type>SQL</Type>
           <Server>MIA-SQL\SQL2</Server>
@@ -43,17 +43,11 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="StoreIndexClustered.sql">
+        <FileNode Name="ColumnStoreIndex.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>StoreIndexClustered.sql</FullPath>
-        </FileNode>
-        <FileNode Name="StoreIndexNonClustered.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>StoreIndexNonClustered.sql</FullPath>
+          <FullPath>ColumnStoreIndex.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
