@@ -1,0 +1,5 @@
+D:\Demofiles\Mod13\ClrDemo\ClrDemo\bin\Debug\ClrDemo.dacpac
+D:\Demofiles\Mod13\ClrDemo\ClrDemo\bin\Debug\ClrDemo.dll
+D:\Demofiles\Mod13\ClrDemo\ClrDemo\bin\Debug\ClrDemo.pdb
+D:\Demofiles\Mod13\ClrDemo\ClrDemo\obj\Debug\ClrDemo.dll
+D:\Demofiles\Mod13\ClrDemo\ClrDemo\obj\Debug\ClrDemo.pdb
