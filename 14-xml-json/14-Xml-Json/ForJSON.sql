@@ -2,6 +2,18 @@ USE Northwind
 GO
 
 --Select Statement
+GO
+
+ SELECT 
+	EmployeeID,
+	FirstName,
+	LastName,
+	Title,
+	HomePhone,
+	HireDate	
+FROM Employees
+ORDER BY LastName, FirstName
+FOR JSON AUTO; 
 
 DECLARE   @JSONText NVARCHAR(MAX)
 SET   @JSONText = N'{
@@ -15,6 +27,8 @@ SET   @JSONText = N'{
                      "ProductID":760
                      }
        }'
- 
 
- 
+SELECT * FROM OpenJson(@JSONText);
+SELECT * FROM OpenJson(@JSONText, '$.Order'); --$ represents the object
+
+
