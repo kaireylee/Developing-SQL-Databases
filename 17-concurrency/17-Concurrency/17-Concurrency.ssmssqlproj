@@ -3,14 +3,14 @@
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="(local)\sqlexpress:LABS\dellp">
-          <Created>2018-01-04T16:14:57.0518441-08:00</Created>
+        <ConnectionNode Name="(local):ADVENTUREWORKS\Administrator">
+          <Created>2019-05-10T10:45:48.3607029-07:00</Created>
           <Type>SQL</Type>
-          <Server>(local)\sqlexpress</Server>
+          <Server>(local)</Server>
           <UserName />
           <Authentication>Windows Authentication</Authentication>
           <InitialDB />
-          <LoginTimeout>15</LoginTimeout>
+          <LoginTimeout>30</LoginTimeout>
           <ExecutionTimeout>0</ExecutionTimeout>
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
@@ -20,74 +20,74 @@
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
         <FileNode Name="CommitRollback.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\sqlexpress:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>(local)\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>CommitRollback.sql</FullPath>
         </FileNode>
         <FileNode Name="ConcurrentSession_2.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\sqlexpress:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>(local)\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>ConcurrentSession_2.sql</FullPath>
         </FileNode>
         <FileNode Name="ConncerentSession_1.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\sqlexpress:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>(local)\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>ConncerentSession_1.sql</FullPath>
         </FileNode>
         <FileNode Name="CreateEnvironment.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\sqlexpress:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>(local)\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>CreateEnvironment.sql</FullPath>
         </FileNode>
         <FileNode Name="ReadCommitted_1.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\sqlexpress:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>(local)\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>ReadCommitted_1.sql</FullPath>
         </FileNode>
         <FileNode Name="ReadCommitted_2.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\sqlexpress:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>(local)\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>ReadCommitted_2.sql</FullPath>
         </FileNode>
         <FileNode Name="ReadUncommitted_1.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\sqlexpress:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>(local)\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>ReadUncommitted_1.sql</FullPath>
         </FileNode>
         <FileNode Name="ReadUncommitted_2.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\sqlexpress:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>(local)\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>ReadUncommitted_2.sql</FullPath>
         </FileNode>
         <FileNode Name="RepeatableRead_1.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\sqlexpress:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>(local)\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>RepeatableRead_1.sql</FullPath>
         </FileNode>
         <FileNode Name="RepeatableRead_2.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\sqlexpress:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>(local)\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>RepeatableRead_2.sql</FullPath>
         </FileNode>
         <FileNode Name="Serialization_1.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\sqlexpress:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>(local)\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Serialization_1.sql</FullPath>
         </FileNode>
         <FileNode Name="Serialization_2..sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\sqlexpress:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>(local)\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Serialization_2..sql</FullPath>
         </FileNode>

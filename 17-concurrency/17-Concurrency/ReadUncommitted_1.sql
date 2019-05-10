@@ -8,5 +8,4 @@ BEGIN TRAN
 	UPDATE  TestIsolationLevels 
 	SET     EmpSalary = 30000
 	WHERE   EmpID = 2900
-
---RollBack
+RollBack
