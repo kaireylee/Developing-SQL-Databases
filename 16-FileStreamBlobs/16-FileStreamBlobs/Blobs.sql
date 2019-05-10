@@ -1,7 +1,8 @@
 USE Northwind;
 GO
 
-CREATE DATABASE FileStreamDM; 
+CREATE DATABASE FileStreamDB; 
+
 
 EXEC sp_configure Filestream_Access_Level, 1;
 RECONFIGURE;
